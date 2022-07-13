@@ -55,7 +55,7 @@
 .button,
 .buttonPrimary {
   float: right;
-  margin-right: -0.4rem;
+  margin: 0.5rem;
   font-weight: 500;
   border-radius: 0.3rem;
   cursor: pointer;

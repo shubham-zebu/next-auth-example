@@ -30,10 +30,20 @@ export default function Header() {
                 className={styles.buttonPrimary}
                 onClick={(e) => {
                   e.preventDefault()
-                  signIn()
+                  signIn('github')
                 }}
               >
-                Sign in
+                Sign in with GitHub
+              </a>
+              <a
+                href={`/api/auth/signin`}
+                className={styles.buttonPrimary}
+                onClick={(e) => {
+                  e.preventDefault()
+                  signIn('gitlab')
+                }}
+              >
+                Sign in with GitLab
               </a>
             </>
             
