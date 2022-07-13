@@ -36,6 +36,7 @@ export default function Header() {
                 Sign in
               </a>
             </>
+            
           )}
           {session?.user && (
             <>
@@ -71,7 +72,7 @@ export default function Header() {
               <a>Home</a>
             </Link>
           </li>
-          <li className={styles.navItem}>
+          {/* <li className={styles.navItem}>
             <Link href="/client">
               <a>Client</a>
             </Link>
@@ -95,7 +96,7 @@ export default function Header() {
             <Link href="/admin">
               <a>Admin</a>
             </Link>
-          </li>
+          </li> */}
           <li className={styles.navItem}>
             <Link href="/me">
               <a>Me</a>
