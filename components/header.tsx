@@ -109,7 +109,7 @@ export default function Header() {
           </li> */}
           <li className={styles.navItem}>
             <Link href="/me">
-              <a>Me</a>
+              <a>Session Data</a>
             </Link>
           </li>
         </ul>
